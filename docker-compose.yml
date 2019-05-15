@@ -1,0 +1,10 @@
+version: '3.7'
+
+services:
+  ansible-ubuntu:
+    image: registry.gitlab.com/sultangillani/docker-yamllint:latest
+    build:
+      context: .
+    stdin_open: true
+    tty: true
+    container_name: yamllint

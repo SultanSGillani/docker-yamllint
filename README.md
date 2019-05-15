@@ -1,3 +1,3 @@
-# yamllint-dockerfile
+# docker-yamllint
 
 Dockerfile for me yamllint
