@@ -1,4 +1,4 @@
-FROM python:3.8-rc/alpine3.9
+FROM python:3.8-rc-alpine3.9
 
 LABEL maintainer="Sultan Gillani (sultangillani)"
 
