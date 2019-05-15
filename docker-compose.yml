@@ -1,7 +1,7 @@
 version: '3.7'
 
 services:
-  ansible-ubuntu:
+  yamllint:
     image: registry.gitlab.com/sultangillani/docker-yamllint:latest
     build:
       context: .
