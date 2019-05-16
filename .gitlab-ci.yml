@@ -10,7 +10,7 @@ variables:
   DOCKER_DRIVER: overlay2
   PIP_CACHE_DIR: "$CI_PROJECT_DIR/.cache"
   LATEST_TAG: latest
-  HUB_RELEASE_IMAGE: docker.io/saltman33/ansible-docker-yamllint
+  HUB_RELEASE_IMAGE: docker.io/saltman33/ansible-yamllint
   YAMLLINT_CONTAINER_RELEASE_IMAGE: $CI_REGISTRY_IMAGE
 cache:
   paths:
